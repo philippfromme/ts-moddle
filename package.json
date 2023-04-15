@@ -1,0 +1,29 @@
+{
+  "name": "ts-moddle",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": "bin/cmd.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "moddle",
+    "typescript"
+  ],
+  "author": "Philipp Fromme",
+  "license": "MIT",
+  "dependencies": {
+    "moddle": "^6.2.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "bpmn-moddle": "^8.0.1"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js"
+  ]
+}
